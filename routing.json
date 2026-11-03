@@ -1,0 +1,47 @@
+{
+  "Name": "PiponiRouter",
+  "GlobalProxy": "false",
+  "RouteOrder": "block-proxy-direct",
+  "RemoteDNSType": "DoH",
+  "RemoteDNSDomain": "https://8.8.8.8/dns-query",
+  "RemoteDNSIP": "8.8.8.8",
+  "DomesticDNSType": "DoH",
+  "DomesticDNSDomain": "https://77.88.8.8/dns-query",
+  "DomesticDNSIP": "77.88.8.8",
+  "Geoipurl": "https://cdn.jsdelivr.net/gh/govai123/piponiLst@main/geoip.dat",
+  "Geositeurl": "https://cdn.jsdelivr.net/gh/govai123/piponiLst@main/geosite.dat",
+  "LastUpdated": "1793730141",
+  "DnsHosts": {
+    "lkfl2.nalog.ru": "213.24.64.175",
+    "lknpd.nalog.ru": "213.24.64.181"
+  },
+  "DirectSites": [],
+  "DirectIp": [],
+  "ProxySites": [
+    "geosite:russia-inside",
+    "geosite:discord",
+    "geosite:google-ai",
+    "geosite:hdrezka",
+    "geosite:telegram",
+    "geosite:cloudflare",
+    "geosite:meta"
+  ],
+  "ProxyIp": [
+    "geoip:cloudflare",
+    "geoip:cloudfront",
+    "geoip:digitalocean",
+    "geoip:discord",
+    "geoip:google_meet",
+    "geoip:hetzner",
+    "geoip:meta",
+    "geoip:ovh",
+    "geoip:roblox",
+    "geoip:telegram",
+    "geoip:twitter"
+  ],
+  "BlockSites": [],
+  "BlockIp": [],
+  "DomainStrategy": "AsIs",
+  "FakeDNS": "false",
+  "UseChunkFiles": "true"
+}
